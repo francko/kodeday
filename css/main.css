@@ -75,3 +75,26 @@ section{
     border-radius: 10px;
     margin: 30px;
 }
+
+#content-catalog{
+    max-width: 900px;
+    min-height: 300px;
+    align-self: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#content-catalog .producto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#content-catalog .producto img{
+    width: 30vw;
+    height: auto;
+    border-radius: 10px;
+    margin: 30px;
+}
