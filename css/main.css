@@ -6,6 +6,13 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 header{
     background-color: #000000;
     width: 100%;
@@ -46,14 +53,14 @@ header img{
 section{
     max-width: 900px;
     min-height: 300px;
+    align-self: center;
+    width: 100%;
 }
 
 #content-description{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    
 }
 
 #content-description .container{
@@ -64,4 +71,7 @@ section{
 
 #content-description .container img{
     width: 30vw;
+    height: auto;
+    border-radius: 10px;
+    margin: 30px;
 }
